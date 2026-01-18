@@ -1,0 +1,101 @@
+[
+    {
+        "Name": "Banco de Crédito del Perú (BCP)",
+        "Industry": "Financial Services, Banking",
+        "Physical Address": "Calle Centenario 156, La Molina, Lima, Peru",
+        "Website": "https://www.viabcp.com/",
+        "Phone": "+51 1 311 9898",
+        "Representative": "Gianfranco Ferrari / CEO",
+        "Member Since": "03/15/2005",
+        "Membership": "Platinum",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Logo-bcp-vector.svg/1280px-Logo-bcp-vector.svg.png"
+    },
+    {
+        "Name": "Alicorp S.A.A.",
+        "Industry": "Consumer Goods, Food & Beverages",
+        "Physical Address": "Av. Argentina 4793, Callao, Lima, Peru",
+        "Website": "https://www.alicorp.com.pe/",
+        "Phone": "+51 1 708 9300",
+        "Representative": "Dionisio Romero Paoletti / Chairman",
+        "Member Since": "07/21/2011",
+        "Membership": "Gold",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Alicorp.svg/1280px-Alicorp.svg.png"
+    },
+       {
+        "Name": "Arca Continental Lindley S.A.",
+        "Industry": "Beverages, Distribution",
+        "Physical Address": "Av. Javier Prado Este 6210, La Molina, Lima, Peru",
+        "Website": "https://www.arcacontinentallindley.pe/",
+        "Phone": "+51 1 319 4000",
+        "Representative": "Johnny Lindley / President",
+        "Member Since": "05/01/2013",
+        "Membership": "Gold",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Arca_Continental_Lindley.png"
+    },
+    {
+        "Name": "Sociedad Minera Cerro Verde S.A.A.",
+        "Industry": "Mining, Copper & Minerals",
+        "Physical Address": "Arequipa, Peru",
+        "Website": "https://www.cerroverde.pe/",
+        "Phone": "+51 54 280 200",
+        "Representative": "Tristan Pascall / General Manager",
+        "Member Since": "11/12/2008",
+        "Membership": "Silver",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Sociedad_Minera_Cerro_Verde.jpg"
+    },
+    {
+        "Name": "Cementos Pacasmayo S.A.A.",
+        "Industry": "Construction Materials, Cement",
+        "Physical Address": "Pacasmayo, La Libertad, Peru",
+        "Website": "https://www.cementospacasmayo.com.pe/",
+        "Phone": "+51 44 204 200",
+        "Representative": "Jaime Muguiro / CEO",
+        "Member Since": "09/30/2010",
+        "Membership": "Silver",
+        "logo": "https://assets.cemnet.com/Content/uploads/images/989365c8-6a54-4fb9-a1e0-26cea1dc506c_hq.jpg"
+    },
+    {
+        "Name": "Empresa Editora El Comercio S.A.",
+        "Industry": "Media, Communications",
+        "Physical Address": "Jr. Jorge Salazar Araoz 171, Lima, Peru",
+        "Website": "https://elcomercio.pe/",
+        "Phone": "+51 1 616 2000",
+        "Representative": "José Graña / Chairman",
+        "Member Since": "01/15/2017",
+        "Membership": "Bronze",
+        "logo": "https://images.seeklogo.com/logo-png/44/1/el-comercio-logo-png_seeklogo-441151.png"
+    },
+    {
+        "Name": "Intercorp Perú Ltd.",
+        "Industry": "Conglomerate, Finance, Retail, Healthcare",
+        "Physical Address": "Lima, Peru",
+        "Website": "https://intercorp.com.pe/",
+        "Phone": "+51 1 618 0000",
+        "Representative": "Carlos Rodríguez-Pastor / Chairman",
+        "Member Since": "04/10/2009",
+        "Membership": "Platinum",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/59/Logo_Intercorp.png"
+    },
+    {
+        "Name": "Enel Perú",
+        "Industry": "Energy, Electricity Generation & Distribution",
+        "Physical Address": "Av. Paseo de la República 3880, Lima, Peru",
+        "Website": "https://www.enel.pe/",
+        "Phone": "+51 1 517 1717",
+        "Representative": "Marco Fragale / Country Manager",
+        "Member Since": "06/01/2014",
+        "Membership": "Gold",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Enel_Group_logo.svg/2560px-Enel_Group_logo.svg.png"
+    },
+    {
+        "Name": "BBVA Perú",
+        "Industry": "Banking, Financial Services",
+        "Physical Address": "Av. República de Panamá 3055, Lima, Peru",
+        "Website": "https://www.bbva.pe/",
+        "Phone": "+51 1 615 0000",
+        "Representative": "Eduardo Torres-Llosa / CEO",
+        "Member Since": "08/22/2012",
+        "Membership": "Gold",
+        "logo": "https://cdnimg.bnamericas.com/lrRUhvEtoixuBuuosDifEzzfmFyGCPRdtuSHosQBbZfMiWSRmpjpZzUGtjRwEfLW.jpg"
+    }
+]
