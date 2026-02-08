@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="og:title" content="Directory | Chamber Lima">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+      content="https://lox4r.github.io/wdd231/chamber/images/logo-chamber-modified-small.webp">
+    <meta property="og:url" content="https://lox4r.github.io/wdd231/chamber/directory.html">
+    <meta property="og:description" content="Chamber of Lima, Join us to get more information">
+    <meta property="fb:app_id" content="your-app-id-here">
+
+
+    <title>Directory | Lima Chamber of Commerce</title>
+    <meta name="description" content="Chamber directory, Lima" />
+    <meta name="author" content="Logan Oyolo" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap">
+    </noscript>
+
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+
+    <script type="module" src="./scripts/app.js"></script>
+    <script src="./scripts/modules/discover.js" defer></script>
+
+
+    <link rel="icon" href="images/favicon-main-modified.ico" sizes="48x48" type="image/ico">
+    <script src="https://kit.fontawesome.com/e0a574ddb0.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="discover-page">
+    <header>
+        <nav>
+            <div class="box-logo-header">
+                <img class="logo-chamber" src="images/logo-chamber-modified-small.webp" alt="Logo Chamber Lima" />
+                <h1 class="nameHeader">Lima<br>Chamber of Ecomerces</h1>
+                <button name="navigation button" id="menu" aria-label="Toggle menu"></button>
+            </div>
+            <ul>
+                <li><a class="nav-a " href="./index.html">Home</a></li>
+                <li><a class="nav-a " href="./discover.html">Discover</a></li>
+                <li><a class="nav-a " href="./directory.html">Directory</a></li>
+                <li><a class="nav-a " href="./join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="discover">
+        <section class="side-bar">
+            <article class="article-01">
+                <header>
+                    <h3>Demographics</h3>
+                </header>
+                <ul>
+                    <li><strong>Capital:</strong> Lima City</li>
+                    <li><strong>Currencies:</strong> United States Dollar, Soles</li>
+                    <li><strong>Official language:</strong> Spanish</li>
+                    <li><strong>Population:</strong> 10,432,133</li>
+                    <li><strong>Dialing code:</strong> +51</li>
+                </ul>
+            </article>
+            <article id="article-02" class="article-02">
+            </article>
+            <article class="article-03">
+                <table id="calendar">
+                    <caption></caption>
+                    <thead>
+                        <tr>
+                            <th>Dom</th>
+                            <th>Lun</th>
+                            <th>Mar</th>
+                            <th>Mie</th>
+                            <th>Jue</th>
+                            <th>Vie</th>
+                            <th>Sab</th>
+                        </tr>
+                    </thead>
+                    <tbody> </tbody>
+                </table>
+            </article>
+
+        </section>
+        <section class="local-photos">
+            <figure>
+                <img data-src="images/load-imagen-01.png" src="images/load-imagen-01.png"
+                    alt="Beautiful sunset over the beach" class="lazy-image" loading="lazy">
+                <figcaption>Beautiful sunset over the beach</figcaption>
+            </figure>
+            <figure>
+                <img data-src="images/load-imagen-02.png" src="images/load-imagen-02.png" alt="Historic town square"
+                    class="lazy-image" loading="lazy">
+                <figcaption>Historic town square</figcaption>
+            </figure>
+            <figure>
+                <img data-src="images/load-imagen-03.png" src="images/load-imagen-03.png" alt="Lush rainforest"
+                    class="lazy-image" loading="lazy">
+                <figcaption>Lush rainforest</figcaption>
+            </figure>
+            <figure>
+                <img data-src="images/load-imagen-04.png" src="images/load-imagen-04.png" alt="Mountain landscape"
+                    class="lazy-image" loading="lazy">
+                <figcaption>Mountain landscape</figcaption>
+            </figure>
+            <figure>
+                <img data-src="images/load-imagen-05.png" src="images/load-imagen-05.png" alt="Colonial architecture"
+                    class="lazy-image" loading="lazy">
+                <figcaption>Colonial architecture</figcaption>
+            </figure>
+            <figure>
+                <img data-src="images/load-imagen-06.png" src="images/load-imagen-06.png" alt="Vibrant city skyline"
+                    class="lazy-image" loading="lazy">
+                <figcaption>Vibrant city skyline</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="currentyear">Lorem</span> Logan Oyolo |
+            Peru</p>
+        <p id="lastModified">Lorem ipsum</p>
+    </footer>
+
+</body>
+
+</html>
