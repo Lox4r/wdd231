@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page">
+    <meta name="author" content="Logan Oyolo">
+
+    <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32" type="image/ico">
+
+    <meta property="og:title" content="Home | Peru Experience">
+    <meta property="og:type" content="website" />
+    <meta property="og:description"
+        content="Discover the magic of Peru through breathtaking landscapes, rich culture, and unforgettable adventures.">
+    <meta property="og:image" content="images/favicon/favicon.png">
+    <meta property="og:url" content="https://lox4r.github.io/wdd231/index.html">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <title>Visit us | Peru Experience</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Oswald&family=Source+Code+Pro&display=swap"
+        as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+
+    <script type="module" src="scripts/app.mjs"></script>
+    <script src="scripts/module/contact.js"></script>
+
+</head>
+
+<body id="contact-page">
+    <header>
+        <nav>
+            <div class="box-logo-header">
+                <img class="logo-chamber" src="images/favicon/favicon-circle-200x200.png" alt="Peru" width="200"
+                    height="200" loading="lazy" />
+                <h1 class="nameHeader"><strong>Peru</strong> <br>Experience</h1>
+                <button name="navigation button" id="menu" aria-label="Toggle menu"></button>
+            </div>
+            <ul>
+                <li><a class="nav-a " href="./index.html">Home</a></li>
+                <li><a class="nav-a " href="./visit.html">Visit</a></li>
+                <li><a class="nav-a " href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container-contact">
+        <section class="contact-box">
+            <div class="image-side slideshow" id="slider">
+                <img id="rotating-image" src="images/contact-page-00.png" alt="Image" width="420" height="767"
+                    loading="lazy">
+            </div>
+            <div class="form-container">
+                <form method="get" action="thankyou.html">
+                    <h2 class="sub-title-form">Contact US</h2>
+                    <label class="name-lb">
+                        Name:
+                    </label>
+                    <br><br>
+                    <input type="text" name="firstName" title="Enter your first name" autocomplete="given-name" required
+                        placeholder="First">
+                    <br><br>
+                    <input type="text" name="lastName" title="Enter your first name" autocomplete="given-name" required
+                        placeholder="Last">
+                    <br><br>
+                    <label>
+                        Email Address:
+                    </label>
+                    <br><br>
+                    <input type="email" name="email" title="Enter your email address" autocomplete="email"
+                        placeholder="example@email.com" required>
+                    <br><br>
+                    <label>
+                        Mobile Phone Number:
+                    </label>
+                    <br><br>
+                    <input type="tel" name="phone" title="Enter your mobile phone number" autocomplete="tel" required
+                        placeholder="+51 999-999-9999">
+                    <br><br>
+
+                    <label>
+                        Message:
+                    </label>
+                    <br><br>
+                    <textarea name="organizationDescription" title="Describe your business or organization" rows="4"
+                        cols="50"></textarea>
+                    <br><br>
+                    <input type="hidden" name="timestamp" id="timestamp" value="">
+                    <button class="css-button-fully-rounded--grey" type="submit">Submit</button>
+                    <br><br>
+                </form>
+            </div>
+        </section>
+        <article class="box-contact-action">
+            <div class="image-container">
+                <img src="images/load-imagen-02-900.png" alt="Image" width="900" height="506">
+            </div>
+            <div class="final-contact">
+                <h3>Explore Peru Like Never Before</h3>
+                <p>Discover Your Next Adventure</p>
+                <div class="contact-item-social">
+                    <a href="#"><img src="images/logos/Facebook_Logo_Secondary.png" alt="Facebook" width="104"
+                            height="104"></a>
+                    <a href="#"><img src="images/logos/logo-x-version-white.png" alt="Twitter" width="104"
+                            height="104"></a>
+                    <a href="#"><img src="images/logos/Instagram_Glyph_White.png" alt="Instagram" width="104"
+                            height="104"></a>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="currentyear">2024</span> - Logan Oyolo - Peru</p>
+        <p id="lastModified">Whereas ipsum dolor, sit amet consectetur</p>
+        <div class="social"></div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page">
+    <meta name="author" content="Logan Oyolo">
+
+    <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32" type="image/ico">
+
+    <meta property="og:title" content="Home | Peru Experience">
+    <meta property="og:type" content="website" />
+    <meta property="og:description"
+        content="Discover the magic of Peru through breathtaking landscapes, rich culture, and unforgettable adventures.">
+    <meta property="og:image" content="images/favicon/favicon.png">
+    <meta property="og:url" content="https://lox4r.github.io/wdd231/index.html">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <title>Visit us | Peru Experience</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Oswald&family=Source+Code+Pro&display=swap"
+        as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+
+    <script type="module" src="scripts/app.mjs"></script>
+    <script src="scripts/module/visit.js" defer></script>
+
+</head>
+
+<body id="visit-page">
+    <header>
+        <nav>
+            <div class="box-logo-header">
+                <img class="logo-chamber" src="images/favicon/favicon-circle-200x200.png" alt="Logo Chamber Peru"
+                    width="200" height="200" loading="lazy" />
+                <h1 class="nameHeader"><strong>Peru</strong> <br>Experience</h1>
+                <button name="navigation button" id="menu" aria-label="Toggle menu"></button>
+            </div>
+            <ul>
+                <li><a class="nav-a " href="./index.html">Home</a></li>
+                <li><a class="nav-a " href="./visit.html">Visit</a></li>
+                <li><a class="nav-a " href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section-principal">
+            <h2>Nature <span>Adventure</span></h2>
+            <article class="price-box">
+                <div>
+                    <img src="images/price-img-01-small.png" alt="Peru" width="540" height="960" loading="lazy">
+                    <h4>Self-Paced Tour</h4>
+                    <h5>$250</h5>
+                    <p>Explore at your own pace with a customizable itinerary. Perfect for independent travelers.</p>
+                    <button>Book Now</button>
+                </div>
+                <div>
+                    <img src="images/price-img-02-small.png" alt="Peru" width="540" height="960" loading="lazy">
+                    <h4>Semi-Guided Tour</h4>
+                    <h5>$350</h5>
+                    <p>A mix of guided and self-paced experiences. Includes support from local experts.</p>
+                    <button>Book Now</button>
+                </div>
+                <div>
+                    <img src="images/price-img-03-small.png" alt="Peru" width="540" height="960" loading="lazy">
+                    <h4>Fully Guided Tour</h4>
+                    <h5>$550</h5>
+                    <p>Enjoy a fully guided experience with a personal guide. Ideal for immersive travel.</p>
+                    <button>Book Now</button>
+                </div>
+
+            </article>
+        </section>
+
+        <section class="section-media">
+            <h2>What We Can Offer You</h2>
+            <p>An experience in Peru offers curated travel packages, local expertise, and unforgettable adventures that
+                highlight the beauty, culture, and diversity of Peru. Whether you're seeking relaxation, adventure, or
+                cultural immersion, our services are designed to make your visit exceptional.</p>
+            <article class="slider-container slider-dimensions">
+                <div class="slider">
+                    <div data-img-url="images/offer-01-small.png" class="slider-dimensions" width="470" loading="lazy">
+                        <h4>Bespoke Tour Packages</h4>
+                    </div>
+                    <div data-img-url="images/offer-02-small.png" class="slider-dimensions" width="470" loading="lazy">
+                        <h4>Certified Activity Guides</h4>
+                    </div>
+                    <div data-img-url="images/offer-03-small.png" class="slider-dimensions" width="470" loading="lazy">
+                        <h4>A la Carte Activities</h4>
+                    </div>
+                    <div data-img-url="images/offer-04-small.png" class="slider-dimensions" width="470" loading="lazy">
+                        <h4>Transport & Airport Transfers</h4>
+                    </div>
+                </div>
+                <div class="nav-container slider-dimensions">
+                    <button data-index-change="-1">&lt;</button>
+                    <div class="index-container">
+                    </div>
+                    <button data-index-change="1">&gt;</button>
+                </div>
+            </article>
+        </section>
+
+        <section class="section-opinion">
+            <h2>What Our Clients Say</h2>
+            <div class="opinion opinion-01">
+                <p>"The self-paced tour was perfect for us! We loved the flexibility and the recommendations were
+                    spot-on. Highly recommended!"</p>
+                <h5>Jose Rivera</h5>
+            </div>
+            <div class="opinion opinion-02">
+                <p>"Having a semi-guided tour was the ideal balance. We got to explore on our own but also enjoyed
+                    the insights from our local guide."</p>
+                <h5>Amy Charter</h5>
+            </div>
+            <div class="opinion opinion-03">
+                <p>"The fully guided tour was fantastic! Our guide was knowledgeable and friendly, making the
+                    experience truly memorable."</p>
+                <h5>John Carpenter</h5>
+            </div>
+        </section>
+        <div class="contact-info-visit">
+            <a href="#"><img src="images/logos/Facebook_Logo_Secondary.png" alt="Facebook" width="104" height="104"
+                    loading="lazy" loading="lazy"></a>
+            <a href="#"><img src="images/logos/logo-x-version-white.png" alt="Twitter" width="104" height="104"
+                    loading="lazy" loading="lazy"></a>
+            <a href="#"><img src="images/logos/Instagram_Glyph_White.png" alt="Instagram" width="104" height="104"
+                    loading="lazy" loading="lazy"></a>
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear">2024</span> - Logan Oyolo - Peru</p>
+        <p id="lastModified">Whereas ipsum dolor, sit amet consectetur</p>
+    </footer>
+</body>
+
+</html>

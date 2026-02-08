@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page">
+    <meta name="author" content="Logan Oyolo">
+
+    <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32" type="image/ico">
+
+    <meta property="og:title" content="Home | Peru Experience">
+    <meta property="og:type" content="website" />
+    <meta property="og:description"
+        content="Discover the magic of Peru through breathtaking landscapes, rich culture, and unforgettable adventures.">
+    <meta property="og:image" content="images/favicon/favicon.png">
+    <meta property="og:url" content="https://lox4r.github.io/wdd231/index.html">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <title>Home | Peru Experience</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Oswald&family=Source+Code+Pro&display=swap"
+        as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+
+    <script type="module" src="scripts/app.mjs"></script>
+    <script src="scripts/module/home.js" defer></script>
+
+
+</head>
+
+<body id="index-page">
+    <header>
+        <nav>
+            <div class="box-logo-header">
+                <img class="logo-chamber" src="images/favicon/favicon-circle-200x200.png" alt="Logo Chamber Peru"
+                    width="200" height="200" loading="lazy" />
+                <h1 class="nameHeader"><strong>Peru</strong> <br>Experience</h1>
+                <button name="navigation button" id="menu" aria-label="Toggle menu"></button>
+            </div>
+            <ul>
+                <li><a class="nav-a " href="./index.html">Home</a></li>
+                <li><a class="nav-a " href="./visit.html">Visit</a></li>
+                <li><a class="nav-a " href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro-box">
+            <picture class="intro-img">
+                <source media="(min-width: 900px)" srcset="images/load-imagen-01-large.png" width="900" height="760">
+                <source media="(min-width: 620px)" srcset="images/load-imagen-01-mediun.png" width="620" height="760">
+                <img src="images/load-imagen-01-small.png" alt="Peru" width="420" height="760" loading="lazy">
+            </picture>
+            <div class="intro-content">
+                <div class="intro-msg">
+                    <h2>Heed the call of <br>
+                        nature and <strong>leave it<br>
+                            all behind.</strong></h2>
+                </div>
+                <div class="button-contact">
+                    <button class="css-button-arrow--black" onclick="location.href='../contact.html'">BOOK
+                        NOW</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="midle-box">
+
+            <article class="side_article">
+                <h3>Leave <br>
+                    it to us!</h3>
+                <p>Discover the magic of Peru through breathtaking landscapes, rich culture, and unforgettable
+                    adventures. </p>
+            </article>
+
+            <article class="main_article">
+                <div class="card_01 box-card">
+                    <img src="images/card-img-01-small.png" alt="Peru" width="520" height="767" loading="lazy">
+                    <h4>Customized Tours</h4>
+                    <p>We craft each tour to reflect your unique interests and preferences. Whether you're seeking a
+                        cultural adventure, a nature escape, or a mix of both, our customized tours offer flexibility
+                        and an itinerary tailored just for you.</p>
+                </div>
+
+                <div class="card_02 box-card">
+                    <img src="images/card-img-02-small.png" alt="Peru" width="520" height="767" loading="lazy">
+                    <h4>Hassle free Arrangements</h4>
+                    <p>We handle all the details, so you can focus on enjoying your trip. From transportation and
+                        tickets to reservations, our team ensures your Peru experience is seamless and stress-free.
+                        Relax knowing that every part of your journey is organized with precision and care.</p>
+                </div>
+
+                <div class="card_03 box-card">
+                    <img src="images/card-img-03-small.png" alt="Peru" width="520" height="767" loading="lazy">
+                    <h4>Flexible Rebooking Policy</h4>
+                    <p>We understand that plans can change, which is why we offer a flexible rebooking policy. If you
+                        need to adjust your travel dates or make changes to your itinerary, we're here to help. </p>
+                </div>
+            </article>
+        </section>
+
+        <section class="social-box">
+            <div class="back-box">
+                <div class="action-box">
+                    <img src="images/social-box-large.png" alt="Peru" width="900" height="767" loading="lazy">
+                    <div class="action-msg">
+                        <h2>Book a Tour with Us</h2>
+                        <h4>Unforgettable Moments Await</h4>
+                    </div>
+                </div>
+                <div class="socia-info">
+                    <div class="contact-item">
+                        <h4>Phone</h4>
+                        <p>(651) 952-542-2456</p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>Email:</h4>
+                        <p>hello@peruxp.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>Social:</h4>
+                        <p>
+                            <a href="#"><img src="images/logos/Facebook_Logo_Secondary.png" alt="Facebook" width="104"
+                                    height="104" loading="lazy"></a>
+                            <a href="#"><img src="images/logos/logo-x-version-white.png" alt="Twitter" width="104"
+                                    height="104" loading="lazy"></a>
+                            <a href="#"><img src="images/logos/Instagram_Glyph_White.png" alt="Instagram" width="104"
+                                    height="104" loading="lazy"></a>
+                        </p>
+                    </div>
+                    <div class="weather-main" id="weather-main"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear">2026</span> - Logan Oyolo - Peru</p>
+        <p id="lastModified">Whereas ipsum dolor, sit amet consectetur</p>
+    </footer>
+
+</body>
+
+</html>
